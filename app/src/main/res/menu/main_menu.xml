@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/buttonLogOut"
+        android:title="Log Out"
+        app:showAsAction="always" />
+    <group>
+        <item
+            android:id="@+id/refresh"
+            android:orderInCategory="1"
+            app:showAsAction="always"
+            android:title="Refresh"></item>
+        <item
+            android:id="@+id/buttonChangePassword"
+            android:orderInCategory="2"
+            app:showAsAction="always"
+            android:title="Change password"></item>
+
+    </group>
+
+
+</menu>
